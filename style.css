@@ -5,6 +5,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
+  font-family: "poppins" !important;
+
 }
 
 header {
@@ -15,14 +17,14 @@ header {
   border-left: 10px #fff solid;
   border-right: 10px #fff solid;
   border-bottom: 10px #fff solid;
-  background-color: rgba(3, 19, 34, 1);
+  background-color: rgb(19, 65, 109);
 }
 
 header #reminder {
   color: #fff;
   font-size: 12px;
   font-style: italic;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   position: absolute;
   bottom: 30px;
   margin-bottom: 0;
@@ -37,7 +39,7 @@ header #reminder #warning {
   color: #fff;
   font-size: 12px;
   font-style: italic;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   position: relative;
   margin: 0;
   text-transform: uppercase;
@@ -48,7 +50,7 @@ header #reminder #bold {
   color: #fff;
   font-size: 12px;
   font-style: italic;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   position: relative;
   margin: 0;
   font-weight: 400;
@@ -227,7 +229,7 @@ header h1 {
   text-align: center;
   font-weight: 300;
 
-  font-family: 'Cantata One', sans-serif;
+  font-family: 'poppins';
   letter-spacing: 1px;
   margin-left: 4%;
   margin-right: 5%;
@@ -241,7 +243,7 @@ header #intro {
   text-align: center;
   font-weight: 400;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   letter-spacing: 1px;
   margin-left: 10%;
   margin-right: 10%;
@@ -255,7 +257,7 @@ header span.header {
   text-align: center;
   font-weight: 300;
   position: absolute;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   font-style: italic;
   letter-spacing: 1px;
   margin-left: 30%;
@@ -317,7 +319,7 @@ header span.header {
 #countdown_hour,
 #countdown_min,
 #countdown_sec {
-  font-family: 'Cantata One', serif;
+  font-family: 'poppins';
   font-size: 70px;
   color: #ff3c41;
   position: absolute;
@@ -330,7 +332,7 @@ header span.header {
 #countdown_txt_hour,
 #countdown_txt_min,
 #countdown_txt_sec {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 400;
@@ -353,7 +355,7 @@ header span.header {
 
 #planning {
   background-color: #fafafa;
-  height: 600px;
+  height: 100%;
 }
 
 h2 {
@@ -362,7 +364,7 @@ h2 {
   text-align: center;
   font-weight: 400;
   position: relative;
-  font-family: 'Cantata One', sans-serif;
+  font-family: 'poppins';
   letter-spacing: 1px;
   width: 100%;
   text-transform: uppercase;
@@ -392,7 +394,7 @@ h2 {
   padding-left: 15%;
   padding-right: 15%;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   font-size: 20px;
   letter-spacing: 1px;
   margin-bottom: 30px;
@@ -445,7 +447,7 @@ h2 {
   font-size: 20px;
   text-align: center;
   font-weight: 300;
-  font-family: 'Cantata One', sans-serif;
+  font-family: 'poppins';
   letter-spacing: 1px;
   margin-left: 40px;
   padding-left: 10px;
@@ -484,7 +486,7 @@ h2 {
 
 .name h4 {
   color: #404040;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   font-size: 18px;
   margin-top: 0;
   margin-bottom: 0;
@@ -494,7 +496,7 @@ h2 {
 
 .person h1 {
   color: #404040;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   font-size: 18px;
   margin-top: 0;
   margin-bottom: 0;
@@ -504,7 +506,7 @@ h2 {
 
 .person a {
   color: #ff3c41;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   font-size: 13px;
 }
 
@@ -516,13 +518,13 @@ h2 {
 
 .name a {
   color: #ff3c41;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   font-size: 13px;
 }
 
 .person li a {
   color: #ff3c41;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   font-size: 13px;
   display: inline-block;
   line-height: 20px;
@@ -544,7 +546,7 @@ h2 {
 
 .person p {
   position: relative;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'poppins';
   font-size: 14px;
   color: #666;
 }
