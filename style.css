@@ -5,7 +5,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff;
-  font-family: "poppins" !important;
 
 }
 
@@ -68,10 +67,15 @@ header #reminder #bold {
   top: 110px;
 }
 
-.main_handstyle {
-  font-family: 'Great Vibes', cursive !important;
+.welcome{
+  width:90%;
+  font-size:25px;
 }
 
+.video{
+  width:90%;
+
+}
 .menu {
   position: absolute;
   left: 0;
