@@ -1,4 +1,4 @@
-body {
+#EC9BAD {
     color: #768390;
     background: #FFF;
     padding: 0;
@@ -56,7 +56,7 @@ body {
 }
 
 .timeline-marker:before {
-    background: #FF6B6B;
+    background: #EC9BAD;
     border: 3px solid transparent;
     border-radius: 100%;
     content: "";
@@ -86,7 +86,7 @@ body {
 
 .timeline-item:not(.period):hover .timeline-marker:before {
     background: transparent;
-    border: 3px solid #FF6B6B;
+    border: 3px solid #EC9BAD;
 }
 
 /*----- TIMELINE CONTENT -----*/
