@@ -28,14 +28,16 @@
       <ul>
         <li class="nav_home"><a class="scrollTo" href="#home">Accueil</a></li>
         /<li class="nav_planning"><a class="scrollTo" href="#planning">Programme</a></li>
-        /<li class="nav_sejour"><a class="scrollTo" href="#sejour">Journée</a></li>
-        /<li class="nav_invites"><a class="scrollTo" href="#contact">Hebergement</a></li>
-        /<li class="nav_contact"><a class="scrollTo" href="#contact">Contacts</a></li>
+        /<li class="nav_sejour"><a class="scrollTo" href="#hebergement">Hebergement</a></li>
+        /<li class="nav_invites"><a class="scrollTo" href="#liste_de_mariage">Liste de mariage</a></li>
+        /<li class="nav_contact"><a class="scrollTo" href="#temoins">Témoins</a></li>
+        /<li class="nav_contact"><a class="scrollTo" href="#acces">Accès</a></li>
+
       </ul>
     </nav>
 
 
-  
+
 
   </header>
 
@@ -68,13 +70,15 @@
   </div>
 
 
-  <div id="planning"> 
-    <center><h2 class="welcome"> Bienvenue sur le site de notre mariage.<br>
-      Vous trouverez ici, toutes les informations nécessaires pour bien préparer votre week-end. 
-      Nous avons hâte de vous retrouver le 6 juin pour célébrer notre union en Vendée. <br>
-      Marie & Pierre
-       </h2></center>j
-       <center><video class="video" controls src="mariage.mp4">Test ?</video></center>
+  <div id="planning">
+    <center>
+      <h2 class="welcome"> Bienvenue sur le site de notre mariage.<br>
+        Vous trouverez ici, toutes les informations nécessaires pour bien préparer votre week-end.
+        Nous avons hâte de vous retrouver le 6 juin pour célébrer notre union en Vendée. <br>
+        Marie & Pierre
+      </h2>
+    </center>
+    <center><video class="video" controls src="mariage.mp4"></video></center>
 
     <h2>Programme </h2>
     <div class="block">
@@ -92,18 +96,17 @@
         </li>
         <li class="timeline-item">
           <div class="timeline-info">
-            <span>6 Juin 2020 - 17h30 </span>
+            <span>6 Juin 2020 - 18H00 </span>
           </div>
           <div class="timeline-marker"></div>
           <div class="timeline-content">
             <h3 class="timeline-title">Cocktail au domaine </h3>
-            <p>Nous aurons le plaisir de vous retrouver pour le cocktail à partir de 17h30 au domaine de la Moinardière, situé à 5 min en voiture de l’église. </p>
           </div>
         </li>
 
         <li class="timeline-item">
           <div class="timeline-info">
-            <span>6 Juin 2020 - 20h00 </span>
+            <span>6 Juin 2020 - 20H30 </span>
           </div>
           <div class="timeline-marker"></div>
           <div class="timeline-content">
@@ -118,7 +121,7 @@
           </div>
           <div class="timeline-marker"></div>
           <div class="timeline-content">
-            <h3 class="timeline-title">Ouverture de la piste de la piste de danse 💃</h3>
+            <h3 class="timeline-title">Ouverture de la piste de danse 💃</h3>
             <p></p>
           </div>
         </li>
@@ -128,7 +131,7 @@
           </div>
           <div class="timeline-marker"></div>
           <div class="timeline-content">
-            <h3 class="timeline-title">Surprise...</h3>
+            <h3 class="timeline-title">Danse de la brioche</h3>
             <p></p>
           </div>
         </li>
@@ -137,22 +140,40 @@
     </div>
   </div>
 
-  <div id="sejour">
+  <!-- <div id="sejour">
     <h2>Jour J</h2>
 
     <div class="banner" id="ban-two">
       <p>¯\_(ツ)_/¯</p>
     </div>
-  </div>
+  </div> -->
 
-  <div id="contact">
+  <div id="hebergement">
     <h2>L'hébergement</h2>
 
-    <div class="banner" id="ban-four">
-      <p>¯\_(ツ)_/¯</p>
+    <div class="block">
+      <h3 class="timeline-title">Pour que vous puissiez bien vous reposer après vous êtes déhanchés jusqu’au bout de la
+        nuit, nous vous transmettons une liste non exhaustive d’hébergements situés à proximité du domaine. </h3>
+      <a class="timeline-title" href="hebergement.pdf">Hébergements aux alentours du Domaine de la Moinardière</a> <a
+        href="gites.pdf">Gites proche domaine de la Moinardière</a>
+    </div>
+    <div id="liste_de_mariage">
+      <h2>Liste de mariage</h2>
+
+      <div class="block">
+        <h3>Si vous le souhaitez, voici le lien vers notre liste de mariage.
+        </h3>
+        <a class="timeline-title" target="_blank"
+          href="https://www.mariages.net/web/W2548391/listedemariage--l6">Accéder à la liste</a>
+        <h3>Nous vous proposons également de faire un don à une association qui nous est proche, Aide au Vietnam et à
+          l'Enfance (AVE). Cette association aide les enfants défavorisés dans l'accès à la scolarisation. Elle assure
+          leurs « besoins essentiels (repas, soins médicaux, logement) et les prépare à construire leur avenir ». </h3>
+        <a class="timeline-title" href="https://ave-asso.org/agir/faire-un-don/">Faire un don à l'association AVE</a>
+
+      </div>
     </div>
 
-    <div class="temoins">
+    <div class="temoins" id="temoins">
 
       <div class="line">
         <h3>Les témoins</h3>
@@ -160,38 +181,64 @@
 
       <div class="person">
         <div class="title">
-          <div class="head" id="head-one"></div>
+          <div class="head" id="head-one"><img style="width: 75px;height: 75px;position: absolute;" src="nicolas.jpeg">
+          </div>
           <div class="name">
             <h4>Témoins 1</h4>
           </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>Nicolas, meilleur amis du marié.</p>
       </div>
 
       <div class="person">
         <div class="title">
-          <div class="head" id="head-two"></div>
+          <div class="head" id="head-two"><img style="width: 75px;height: 75px;position: absolute;" src="marie.jpg">
+          </div>
           <div class="name">
             <h4>Témoins 2</h4>
           </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>Marie, meilleure amie de la mariée.</p>
       </div>
-
-
     </div>
 
+
+    <div id="acces">
+      <h2>Accès</h2>
+
+      <div class="block">
+        <h3>
+          Pour nous retrouver en Vendée le temps d’un week-end, voici différents accès :<br><br>
+
+          En avion :<br>
+          <div style="margin-left: 10px;">
+            Aéroport de Nantes (~100 km du domaine)<br><br>
+          </div>
+          En train :<br>
+          <div style="margin-left: 10px;">
+            ligne TGV entre Paris et Les Sables d’Olonne<br>
+            Gare des Sables d’Olonne (32 km du domaine)<br>
+            Gare de la Roche sur Yon (25 km)<br><br><br>
+          </div>
+
+          <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2748.2712112081153!2d-1.4530176845053902!3d46.46313567425322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48041770d8315ced%3A0x26b7ec9da0e2f44!2sDomaine%20la%20Moinardiere!5e0!3m2!1sfr!2sfr!4v1577287374688!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+          </div>
+
+        </h3>
+      </div>
+    </div>
+
+
+
+
   </div>
 
-  <div class="map-responsive">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.8841126395755!2d-1.542766683389177!3d47.214396722270685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4805eeb83bef81a1%3A0x8760aabed842b42!2s41+Quai+de+Malakoff%2C+44000+Nantes!5e0!3m2!1sfr!2sfr!4v1560867620528!5m2!1sfr!2sfr"
-      width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
+
+
+
   <script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
 
 
