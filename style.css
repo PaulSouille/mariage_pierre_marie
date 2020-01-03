@@ -13,6 +13,7 @@ h3{
   font-family: poppins;
 
 }
+
 header {
   overflow: hidden;
   width: calc(100% - 20px);
@@ -21,6 +22,22 @@ header {
   border-left: 10px #fff solid;
   border-right: 10px #fff solid;
   border-bottom: 10px #fff solid;
+}
+
+.footer {
+  font-family: poppins;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(3, 19, 34, 1);
+  color: rgb(118, 131, 144);
+  text-align: center;
+}
+
+.footer_text{
+  text-align: center;
+  display: inline;
+
 }
 
 header #reminder {
