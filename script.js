@@ -1,6 +1,6 @@
 countdownManager = {
     // Configuration
-    targetTime: new Date('Jun 6 00:00:00 2020'), // Date cible du compte à rebours (00:00:00)
+    targetTime: new Date('Oct 31 00:00:00 2020'), // Date cible du compte à rebours (00:00:00)
     displayElement: { // Elements HTML où sont affichés les informations
         day: null,
         hour: null,
